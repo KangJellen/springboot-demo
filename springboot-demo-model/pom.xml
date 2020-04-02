@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jellen</groupId>
+        <artifactId>springboot-demo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.jellen</groupId>
+    <artifactId>springboot-demo-model</artifactId>
+    <name>springboot-demo-model</name>
+
+    <distributionManagement>
+        <repository>
+            <id>snapshots</id>
+            <name>archiva Repo -- snapshots</name>
+            <url>http://120.26.221.154:8081/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </distributionManagement>
+</project>
