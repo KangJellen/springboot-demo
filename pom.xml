@@ -16,7 +16,7 @@
     <name>springboot-demo</name>
 
     <properties>
-        <c3p0.version>0.9.5.2</c3p0.version>
+        <c3p0.version>0.9.5.5</c3p0.version>
         <apollo.client.version>0.9.1-SNAPSHOT</apollo.client.version>
         <wutong.job.version>1.0.0-SNAPSHOT</wutong.job.version>
     </properties>
